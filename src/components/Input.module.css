@@ -1,0 +1,10 @@
+.input{
+    width:4vw;
+    height:4vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    cursor: pointer;
+    border-radius: 10px;
+}
