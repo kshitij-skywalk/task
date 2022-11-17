@@ -4,3 +4,10 @@
     border: 1px solid black;
     border-radius: 10px;
 }
+
+.align{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 5px;
+}

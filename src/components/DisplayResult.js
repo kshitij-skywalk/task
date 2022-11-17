@@ -1,6 +1,10 @@
 import styles from "./DisplayResult.module.css";
-const DisplayResult = () => {
-  return <input type="text" className={styles["display-result"]}></input>;
+const DisplayResult = (props) => {
+  return (
+    <div type="text" className={`${styles["display-result"]} ${styles.align}`}>
+      {props.result}
+    </div>
+  );
 };
 
 export default DisplayResult;
